@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "myCostumeFont";
+  src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 15px;
+  font-family: "myCostumeFont";
+}
+
+.container {
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 300px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 8px 8px;
+  border: 1px solid #000;
+}
+
+.img-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.main .header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.main .header .tag {
+  background-color: hsl(47, 88%, 63%);
+  width: max-content;
+  padding: 0.2rem 0.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family: "myCostumeFont";
+}
+
+.main .header .date {
+  font-family: "myCostumeFont";
+  font-size: 12px;
+  margin: 5px 0 0 2px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+}
+.main .text {
+  margin: 1rem 0;
+}
+
+.main .text h1 {
+  font-size: 1.3rem;
+  font-family: "myCostumeFont";
+  margin-bottom: 1rem;
+}
+
+.main .text h1:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.main .text p {
+  color: (0, 0%, 50%);
+  opacity: 80%;
+}
+
+.main .avatar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1.3rem;
+}
+
+.main .avatar img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.main .avatar h2 {
+  font-size: 15px;
+}
